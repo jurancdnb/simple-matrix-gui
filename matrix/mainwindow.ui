@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>240</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSplitter" name="splitter">
+    <property name="geometry">
+     <rect>
+      <x>41</x>
+      <y>69</y>
+      <width>201</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <widget class="QPushButton" name="CreateBtn">
+     <property name="text">
+      <string>新建矩阵</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="DisplayBtn">
+     <property name="text">
+      <string>显示矩阵</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>矩阵转置</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="InverseBtn">
+     <property name="text">
+      <string>矩阵求逆</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="text">
+      <string>矩阵相加</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="MinusBtn">
+     <property name="text">
+      <string>矩阵相减</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="MultBtn">
+     <property name="text">
+      <string>矩阵相乘</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Ele_ChangeBtn">
+     <property name="text">
+      <string>更改元素</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ShowEleBtn">
+     <property name="text">
+      <string>显示指定元素</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="text">
+      <string>显示指定行</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="colSelectBtn">
+     <property name="text">
+      <string>显示指定列</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
